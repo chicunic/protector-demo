@@ -1,0 +1,34 @@
+{
+  "name": "protector-demo",
+  "version": "0.0.1",
+  "description": "Protector Demo",
+  "license": "MIT",
+  "private": true,
+  "repository": "git@github.com:chicunic/protector-demo.git",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint ./"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "dotenv": "^16.1.4",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.8"
+  }
+}
